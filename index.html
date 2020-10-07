@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="Es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Registro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="form-register">
+        <h1>Formulario registro</h1><br>
+        <input class="controls" type="text" name="Nombre" id="Nombre" placeholder="Ingrese su Nombre ">
+        <input class="controls" type="text" name="Apellido" id="Apellido" placeholder="Ingrese su Apellido ">
+        <input class="controls" type="text" name="NomTutor" id="NomTutor" placeholder="Ingrese el nombre de su Tutor ">
+        <input class="controls" type="email" name="Correo" id="Correo" placeholder="Ingrese su Correo ">
+        <input class="controls" type="password" name="Contraseña" id="Contraseña" placeholder="Ingrese su Contraseña">
+        <table style="width: 100%;">
+        <tr><th colspan="2"><div>
+        <label for="Especialidad">Especialidad:</label><br>
+        <select name="Especialidad" class="botonss">
+            <option value="PG">Programación</option>
+            <option value="LG">Logistica</option>
+            <option value="AL">Alimentos</option>
+            <option value="EL">Electronica</option>
+            <option value="CN">Contabilidad</option>
+            <option value="" selected="selected">Selecciona Especialidad...</option>
+            </select>
+        </div></th>
+        <tr>
+            <th><div>Grado: <br>
+                <input type="checkbox" id="primero" name="grado" value="primero">
+                <label for="primero">1°- 2°</label><br>
+                <input type="checkbox" id="tercero" name="grado" value="tercero">
+                <label for="coches">3°- 4°</label><br>
+                <input type="checkbox" id="quinto" name="grado" value="quinto">
+                <label for="quinto">5°- 6°</label><br>
+            </div></th>
+            <th>
+                <div> <label>Sexo:</label><br> 
+                    <input type="radio" id="masculino" name="sexo" value="masculino">
+                    <label for="masculino">Masculino</label><br>
+                    <input type="radio" id="femenino" name="sexo" value="femenino">
+                    <label for="femenino">Femenino</label><br>
+                </div><br>
+            </th>
+        </tr>
+        </table> <br>
+        <p>Estoy de acuerdo con <a href=""> Terminos y condiciones</a></p>
+        <div>
+            <input class="botons" type="submit" name="submit" value="Enviar informacion">
+            <input class="botons" type="reset" name="reset" value="Limpiar formulario">
+        </div><br>
+        <p><a href="">¿Ya tengo cuenta?</a></p>
+    </section>
+</body>
+</html>

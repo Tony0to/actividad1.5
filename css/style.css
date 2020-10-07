@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+body{
+    background-image: url('imagenes/Fondo-gris-claro-800px-05.jpg');
+    background-position: center;
+    background-size: 100%;
+}    
+
+.form-register{
+    width: 400px;
+    background: grey; ;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: "calibri";
+    color: #f6fff8;
+    box-shadow: 7px 13px 37px black;
+}
+.form-register h1{
+    font-size: 22px;
+margin-bottom: 0px;
+}
+::-webkit-input-placeholder { 
+    color:#6b9080; 
+} 
+.controls{
+    width: 100%;
+    background-color: #f6fff8;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    font-family: "calibri";
+    font-size: 18px;
+    color:#f6fff8;
+}
+.form-register p {
+    height: 10px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 10px ;
+}
+.form-register a {
+    color:#f6fff8;
+    text-decoration: none;
+}
+.form-register a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.form-register .botons {
+    width: 100%;
+    background: #6b9080;
+    border: none;
+    padding: 10px;
+    color: black;
+    margin: 10px 0;
+    font-size: 16px;
+}
+.form-register .botonss {
+    width: 100%;
+    background: #6b9080;
+    border: none;
+    padding: 10px;
+    color: #f6fff8;
+    margin: 10px 0;
+    font-size: 16px;
+}
